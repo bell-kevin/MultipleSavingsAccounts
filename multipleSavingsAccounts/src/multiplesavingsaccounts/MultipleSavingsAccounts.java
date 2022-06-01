@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MultipleSavingsAccounts {
 
     public static void main(String[] args) {
-        System.out.println("Ch 6 Multiple Accounts by Kevin Bell \n");
+        System.out.println("Ch 6 Multiple Accounts by Kevin Bell");
         Scanner computerKeyboardInput = new Scanner(System.in);
         Account savings1 = new Account();
         Account savings2 = new Account();
@@ -13,6 +13,7 @@ public class MultipleSavingsAccounts {
         int cycles = 1, i;
         double interestRate, balance;
         for (i = 1; i < 4; i++) {
+            System.out.println("");
             System.out.println("New Savings Account #" + i);
             System.out.print("Enter starting balance of this Savings Account: ");
             balance = computerKeyboardInput.nextDouble();
